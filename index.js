@@ -7,5 +7,4 @@ app.get('/', async (req, res) => {
         success: true
     })
 });
-
 exports.app = functions.https.onRequest(app);
